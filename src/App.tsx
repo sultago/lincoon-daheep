@@ -1,4 +1,6 @@
 import React from 'react';
+import TextInputForm from './components/TextInputForm';
+
 import logo from './logo-apeach.jpg';
 import './App.css';
 
@@ -9,7 +11,7 @@ const App: React.FC = () => {     // function component
         <img src={logo} className="App-logo" alt="apeach logo" />
       </header>
       <div>
-        test
+        <TextInputForm/>
       </div>
     </div>
   );
